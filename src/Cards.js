@@ -14,7 +14,7 @@ class Cards extends React.Component {
       return (
         <div class='outline'>
           <div class="header">
-            <h1>
+            <h1 class='text'>
               Goals
             </h1>
           </div>
@@ -28,30 +28,26 @@ class Cards extends React.Component {
             // and other props, which will go to div
             >  
 
-            <FrontSide 
-              style={{
+            <FrontSide style = {{
                 position: 'relative',
                 display: 'flex',
                 flexDirection: 'column',
-                height: '320px',
+                height: '300px',
                 width: '235px',
                 margin: '20px',
                 backgroundColor: 'white'
-              }}
-            >   
+            }}>   
               <img class="image" src={Missoula} alt='Missoula, Montana'/>
               <h3 class="card-title">MISSOULA</h3>
               <p class="card-flip">Click arrow to flip<FiArrowRightCircle/></p>
             </FrontSide>
             
-            <BackSide 
-                style={{
-                  backgroundColor: 'white',
-                  height: '320px',
-                  width: '235px',
-                  left: '6%'
-                }}
-            >
+            <BackSide style = {{
+                backgroundColor: 'white',
+                height: '300px',
+                width: '235px',
+                left: '6%'
+            }}>
               So, this goal I have actually already achieved. I had wanted to move to Missoula since I was a senior in
               high school and was looking at places to go for college. Upon starting this portfolio project it was still
               one of my goals, so I decided to keep it in the project to show that I'm actively accomplishing my goals.            
@@ -72,7 +68,7 @@ class Cards extends React.Component {
                   position: 'relative',
                   display: 'flex',
                   flexDirection: 'column',
-                  height: '320px',
+                  height: '300px',
                   width: '235px',
                   margin: '20px',
                   backgroundColor: 'white'
@@ -85,7 +81,7 @@ class Cards extends React.Component {
             <BackSide 
                 style={{
                   backgroundColor: 'white',
-                  height: '320px',
+                  height: '300px',
                   width: '235px',
                   left: '6%'
                 }}
@@ -109,7 +105,7 @@ class Cards extends React.Component {
                   position: 'relative',
                   display: 'flex',
                   flexDirection: 'column',
-                  height: '320px',
+                  height: '300px',
                   width: '235px',
                   margin: '20px',
                   backgroundColor: 'white'
@@ -122,7 +118,7 @@ class Cards extends React.Component {
             <BackSide 
                 style={{
                   backgroundColor: 'white',
-                  height: '320px',
+                  height: '300px',
                   width: '235px',
                   left: '6%'
                 }}
@@ -146,7 +142,7 @@ class Cards extends React.Component {
                   position: 'relative',
                   display: 'flex',
                   flexDirection: 'column',
-                  height: '320px',
+                  height: '300px',
                   width: '235px',
                   margin: '20px',
                   backgroundColor: 'white'
@@ -159,7 +155,7 @@ class Cards extends React.Component {
             <BackSide 
                 style={{
                   backgroundColor: 'white',
-                  height: '320px',
+                  height: '300px',
                   width: '235px',
                   left: '6%',
                   overflowY: 'scroll'
